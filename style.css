@@ -1,0 +1,254 @@
+header {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 250px;
+    }
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                margin: 10px;
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: #ABABAB;
+            }
+        }
+    }
+}
+
+.enfant1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: #00B39B;
+    }
+}
+
+.enfant2 {
+    display: flex;
+
+    .enfant2-1 {
+        width: 25%;
+    }
+
+    .enfant2-2 {
+        width: 25%;
+    }
+
+    justify-content: center;
+}
+
+.enfant3 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 300px;
+
+    .enfant3-1 {
+        padding: 20px;
+        background-color: #00B39B;
+        border-radius: 10px;
+        margin-right: 20px;
+
+    }
+
+    .enfant3-2 {
+        background-color: #3D83DF;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .enfant3-3 {
+        background-color: #1B2734;
+        padding: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+}
+
+.enfant4 {
+    display: flex;
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 50px;
+
+    .enfant4-2 {
+        margin-left: 100px;
+    }
+}
+
+.enfant5{
+    background-color: #DBF7F7;
+    display: flex;
+.enfant5-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    h5{
+        color: #3CC6B4;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+.enfant5-2{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 90px;
+    .enfant5-2-1{
+       
+        .enfant5-2-1-1{
+            border-radius: 20px;
+            margin-top:25px ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            h5{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            img{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .enfant5-2-1-2{
+            border-radius: 20px;
+            display: flex;
+            padding: 25px;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            h5{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            img{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .enfant5-2-2{
+        margin-left: 20px;
+        
+        .enfant5-2-2-1{
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            align-items: center;
+            background-color: white;
+            margin-bottom: 20px;
+            h5{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            img{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .enfant5-2-1-2{
+            border-radius: 20px;
+            display: flex;
+            padding: 25px;
+            
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            h5{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            img{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+}
+.enfant6{
+    text-align: center;
+    h3{
+        color: #00B39B;
+    }
+    p{
+        color: gray;
+    }
+}
+.enfant7{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+     margin-left: 100px;
+    
+         .enfant7-1{
+            padding-top: 10px;
+            img{
+                border-radius: 20px 20px 0 0;
+            }
+
+        }
+        .enfant7-2{
+            display: flex;
+            justify-content: space-around;
+            background-color: #E3DAD3;
+            width: 85%;
+            button{
+                background-color: #3D83DF;
+                margin:  10px;
+                border-radius: 10px;
+                
+            }
+        } 
+}
+.enfant8{
+    text-align: center;
+    button{
+        background-color: #3279D8;
+        color: white;
+        border-radius: 4px;
+        margin: 20px;
+        
+        
+    }
+}
+.enfant9{
+    text-align: center;
+   
+    h5{
+        color: #3D85E5;
+    }
+    h6{
+        text-align: center;
+        color: #ABABB3;
+    
+    }
+    h4{
+        color: #ABABB3;
+    }
+}
+
